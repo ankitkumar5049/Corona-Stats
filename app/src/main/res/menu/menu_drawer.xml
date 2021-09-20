@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/dashboard"
+            android:title="Dashboard"
+            android:icon="@drawable/ic_home"/>
+
+        <item android:title="Hospitals and Beds"
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_hosptal"/>
+
+        <item android:title="State Wise"
+            android:id="@+id/favourite"
+            android:icon="@drawable/ic_contact"/>
+
+        <item android:title="District Wise"
+            android:id="@+id/aboutApp"
+            android:icon="@drawable/ic_notification"/>
+
+    </group>
+
+</menu>

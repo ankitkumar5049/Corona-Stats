@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FEA82F"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".fragment.DashboardFragment">
+
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Let's Fight Together"
+       android:textSize="24sp"
+       android:textStyle="italic|bold"
+       android:textAlignment="center"
+       android:textColor="@color/black"
+       android:layout_margin="10dp"
+       android:padding="5dp"
+       android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/CovidReport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Covid Report"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:padding="3dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="24sp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:elevation="5dp"
+        app:cardCornerRadius="4dp">
+
+        <TextView
+            android:id="@+id/txtTotalCases"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Cases: 123456789"
+            android:textSize="24sp"
+            android:textColor="#F7EA00"
+            android:layout_gravity="left"
+            android:layout_margin="10dp"
+            android:padding="5dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:elevation="5dp"
+        app:cardCornerRadius="4dp">
+
+        <TextView
+            android:id="@+id/txtTotalIndCases"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Cases: 123456789"
+            android:textSize="24sp"
+            android:textColor="#FFE459"
+            android:layout_gravity="left"
+            android:layout_margin="10dp"
+            android:padding="5dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:elevation="5dp"
+        app:cardCornerRadius="4dp">
+
+        <TextView
+            android:id="@+id/txtTotalForCases"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Cases: 123456789"
+            android:textSize="24sp"
+            android:textColor="#FFE459"
+            android:layout_gravity="left"
+            android:layout_margin="10dp"
+            android:padding="5dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="4dp">
+
+        <TextView
+            android:id="@+id/txtRecoveredCases"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#80ED99"
+            android:text="Recovered Cases: 123456789"
+            android:textSize="24sp"
+            android:layout_gravity="left"
+            android:layout_margin="10dp"
+            android:padding="5dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="4dp">
+
+
+        <TextView
+            android:id="@+id/txtDeaths"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deaths: 123456789"
+            android:textColor="#CD113B"
+            android:textSize="24sp"
+            android:layout_gravity="left"
+            android:layout_margin="10dp"
+            android:padding="5dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

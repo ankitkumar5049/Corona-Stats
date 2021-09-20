@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEA82F"
+    tools:context=".fragment.HosAndBedFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/corona3"
+        android:layout_margin="10dp"
+        android:padding="5dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:background="#f5f5f5" />
+
+   <!-- <TextView
+        android:id="@+id/txtRHos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rural Hospital : 123456"
+        android:textSize="24sp"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/txtRBed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rural Bed : 123456"
+        android:textSize="24sp"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:textColor="@color/black"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:background="#f5f5f5" />
+
+    <TextView
+        android:id="@+id/txtUHos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Urban Hospital : 123456"
+        android:textSize="24sp"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/txtUBed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Urban Bed : 123456"
+        android:textSize="24sp"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:textColor="@color/black"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:background="#f5f5f5" />-->
+
+        <TextView
+            android:id="@+id/txtTotHos"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Total Hospital : 123456"
+            android:textStyle="bold"
+    android:textSize="24sp"
+    android:layout_margin="5dp"
+    android:padding="5dp"
+    android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/txtTotBed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Bed : 123456"
+        android:textSize="24sp"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:textColor="@color/black"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:background="#f5f5f5" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/RecyclerDashboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="5dp"/>
+    </LinearLayout>
+
+
+
+
+</ScrollView>
